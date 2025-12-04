@@ -172,7 +172,7 @@ TC-API-001: Создание пользователя
 
 Используемые инструменты  
 
-1. Postman - основная платформа для тестирования  
-2. DevTools Network tab - анализ запросов/ответов  
-3. Markdown - документация тест-кейсов  
-4. GitHub - хранение результатов  
+1. Postman 
+2. DevTools Network tab 
+3. Markdown
+4. GitHub
