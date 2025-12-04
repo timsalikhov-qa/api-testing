@@ -6,25 +6,28 @@
 
 Base URL: https://reqres.in/api  
 
-Endpoint Метод Тестов Статус Найдено дефектов  
-/users GET 8 ✅ 0  
-/users/{id} GET 5 ✅ 1  
-/users POST 6 ✅ 1  
-/users/{id} PUT 4 ✅ 0  
-/users/{id} DELETE 3 ✅ 0  
-/login POST 4 ✅ 0  
-/register POST 4 ✅ 0  
-Всего:  34 теста  2 дефекта  
+| Endpoint        | Метод | Кол-во тестов | Статус | Найдено дефектов |
+|-----------------|--------|----------------|--------|-------------------|
+| /users          | GET    | 8              | ✅     | 0                 |
+| /users/{id}     | GET    | 5              | ✅     | 1                 |
+| /users          | POST   | 6              | ✅     | 1                 |
+| /users/{id}     | PUT    | 4              | ✅     | 0                 |
+| /users/{id}     | DELETE | 3              | ✅     | 0                 |
+| /login          | POST   | 4              | ✅     | 0                 |
+| /register       | POST   | 4              | ✅     | 0                 |
+| **Итого**       | —      | **34**         | —      | **2**             |
+
 
 2. JSONPlaceholder - Дополнительное тестирование  
 
 Base URL: https://jsonplaceholder.typicode.com  
 
-Endpoint Тестов Статус  
-/posts 5 ✅  
-/comments 3 ✅  
-/albums 2 ✅  
-Всего: 10 тестов   
+| Endpoint   | Кол-во тестов | Статус |
+|------------|----------------|--------|
+| /posts     | 5              | ✅     |
+| /comments  | 3              | ✅     |
+| /albums    | 2              | ✅     |
+| **Итого**  | **10**         | —      |
 
 Найденные дефекты  
 
