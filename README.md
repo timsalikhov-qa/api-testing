@@ -15,9 +15,9 @@ Base URL: https://reqres.in/api
 | /users/{id}     | DELETE | 3              | ✅     | 0                 |
 | /login          | POST   | 4              | ✅     | 0                 |
 | /register       | POST   | 4              | ✅     | 0                 |
-| **Итого**       | —      | **34**         | —      | **2**             |
+| **Итого**       | —      | **34**         | —      | **2**             |  
 
-
+  
 2. JSONPlaceholder - Дополнительное тестирование  
 
 Base URL: https://jsonplaceholder.typicode.com  
